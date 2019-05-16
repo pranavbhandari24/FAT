@@ -54,6 +54,7 @@ The shell supports the following commands:
             
 # How to run:
   To run the program type the following commands:
+  
     make
     ./mfs
 
