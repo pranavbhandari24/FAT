@@ -1,6 +1,12 @@
 # FAT
 This program implements a user space shell application that is capable of interpreting and performing commands on a FAT32 file system image.
 
+# How to run:
+  To run the program, type the following commands:
+  
+    make
+    ./mfs
+
 # Commands Supported:
 The shell supports the following commands:
   1) open <filename> 
@@ -52,10 +58,6 @@ The shell supports the following commands:
              the number of bytes specified (in ASCII format). 
              
             
-# How to run:
-  To run the program type the following commands:
-  
-    make
-    ./mfs
+
 
 # Note: This code cannot be run without a FAT32.img file.
